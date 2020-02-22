@@ -1,0 +1,72 @@
+/*--------------------------------------------Footer------------------------------------------------------------*/
+.footer {
+  background-image: url(../images/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 460px;
+  padding-top: 100px;
+}
+
+@media screen and (min-resolution: 3dppx) {
+  .footer {
+    background-image: url(../images/footer2.png);
+  }
+}
+
+.footer__title {
+  margin-bottom: 25px;
+}
+
+.footer__text {
+  text-align: center;
+  font-family: $font-family;
+  font-weight: 300;
+  color: $color-type;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.form {
+  width: 540px;
+  border: 1px solid $color-type;
+  background-color: $color-type;
+  border-radius: 5px;
+}
+
+.form__input {
+  width: 446px;
+  padding-left: 25px;
+  height: 57px;
+  font-family: $font-family;
+  color: $text-title;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  outline: none;
+  border: none;
+  position: relative;
+}
+
+.form__button {
+  width: 90px;
+  height: 54px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: $button;
+  border-radius: 0px 5px 5px 0px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  background-image: url(../images/fast-forward.svg);
+  background-position: center;
+}
+
+.container-form {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+}

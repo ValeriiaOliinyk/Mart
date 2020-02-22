@@ -1,10 +1,16 @@
-/*
- * Все паршалы импортировать в этот файл
- */
+//Fonts & colors
+@import './vars.scss';
 
-@import 'normalize.scss';
-@import 'base.scss';
+//Base
+@import './normalize.scss';
+@import './base.scss';
 
-body {
-  background-color: magenta;
-}
+//Components
+@import './components/header.scss';
+@import './components/banner.scss';
+@import './components/about.scss';
+@import './components/new-collection.scss';
+@import './components/overlay.scss';
+@import './components/featured-products.scss';
+@import './components/latest-news.scss';
+@import './components/footer.scss';
